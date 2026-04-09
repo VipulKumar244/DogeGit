@@ -125,7 +125,8 @@ def get_commit(oid):
     
 
 
-
+def get_oid(name):
+    return data.get_ref(name) or name
 
 
 
